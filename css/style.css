@@ -465,8 +465,8 @@ input[type=checkbox] {
 }
 .sub-menu-wrap{
     position: absolute;
-    right: -9%;
-    top: 34.2%;
+    right: -13%;
+    top: 44.2%;
     overflow: hidden;
     max-height: 0px;
     transition: max-height 0.5s;
@@ -477,7 +477,7 @@ input[type=checkbox] {
 
 .sub-menu{
     background: #1e5631;
-    width: 50%;
+    width: 40%;
     height: 15%;
     cursor: pointer;
     font-family:'Courier New', Courier, monospace;
@@ -545,7 +545,7 @@ input[type=checkbox] {
     display: inline-flex;
     background: white;
     position: relative;
-    left: 900px;
+    left: 1050px;
     bottom: 15px;
 }
 .pagination li{
