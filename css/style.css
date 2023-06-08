@@ -447,11 +447,11 @@ table thead tr{
 }
 
 .box td button{
-    color: #1e5631;
+    color: #4C9E2A;
     background-color: white;
-    border: 1px solid #1e5631;
+    border: 1px solid #4C9E2A;
     border-radius: 20px;
-    width: 40%;
+    width: 50%;
     left: 0;
 }
 tr a{
@@ -461,7 +461,10 @@ tr a{
 }
 input[type=checkbox] {
     transform: scale(.5);
-    margin: 0;
+    margin: -5px;
+    width: 50px;
+    position: relative;
+    top: 2px;
 }
 .sub-menu-wrap{
     position: absolute;
@@ -483,6 +486,7 @@ input[type=checkbox] {
     font-family:'Courier New', Courier, monospace;
     border: 2px solid black;
     
+    
 }
 .sub-menu-link{
     display: flex;
@@ -502,8 +506,11 @@ input[type=checkbox] {
     margin: -10;
 }
 .sub-menu-link p{
-    width: 10%;
+    width: 0%;
     cursor: pointer;
+    font-size: 12px;
+    display: inline;
+  
     
 
 }
